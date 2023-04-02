@@ -11,7 +11,7 @@ data_vprimer 1.00
 ## Installation
 ~~~
 $ git clone https://github.com/ncod3/data_vprimer
-~
+~~~
 
 ## Getting Started
 
