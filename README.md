@@ -10,7 +10,7 @@ data_vprimer 1.00
 
 ## Installation
 ~~~
-$ pip install git+https://github.com/ncod3/vprimer
+$ git clone https://github.com/ncod3/data_vprimer
 ~~~
 
 ## Getting Started
