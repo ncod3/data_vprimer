@@ -1,0 +1,8 @@
+#vcf_sample	bam_or_bed
+MP2_012	data_vprimer/bams/MP2_012.bam
+MP2_013	data_vprimer/bams/MP2_013.bam
+MP2_014	data_vprimer/bams/MP2_014.bam
+MP2_015	data_vprimer/bams/MP2_015.bam
+MP2_018	data_vprimer/bams/MP2_018.bam
+MP2_020	data_vprimer/bams/MP2_020.bam
+
