@@ -4,7 +4,7 @@ data_vprimer 1.00
 
 ## Features
 
-vprimer(https://github.com/ncod3/data_vprimer)のためのサンプルデータです。
+vprimer( https://github.com/ncod3/data_vprimer )のためのサンプルデータです。
 
 ## Contents
 
