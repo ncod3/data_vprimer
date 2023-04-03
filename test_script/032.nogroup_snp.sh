@@ -7,7 +7,7 @@ vcf="data_vprimer/MP2_6_TDr96_F1.vcf.gz"
 
 out_dir="out_vprimer_032_snp"
 
-auto_gropu="MP2_012,MP2_013,MP2_014,MP2_015,MP2_018,MP2_020"
+auto_group="MP2_012,MP2_013,MP2_014,MP2_015,MP2_018,MP2_020"
 
 # 1   chrom_01    1   2000000
 # 2   chrom_02    1   2000000
@@ -29,7 +29,7 @@ thread=6
 $program \
     --ref $ref \
     --vcf $vcf \
-    --auto_gropu $auto_group \
+    --auto_group $auto_group \
 \
     --target $target \
     --out_dir $out_dir \
