@@ -1,36 +1,78 @@
 # Sample data for V-primer
 
-data_vprimer 1.00
+V-primer のための、デモ用サンプルデータです。
 
-## Features
+## Description (概要)
 
-vprimer( https://github.com/ncod3/data_vprimer )のためのサンプルデータです。
+データの内容は以下です。
 
-## Contents
+下記論文で構築され、現在 EnsemblPlants で公開されているシロギニアヤム(<em>D. rotundata</em>)の仮想染色体(20染色体, 589Mbp)から、染色体番号1と2を取り出し、その中でも、先頭2Mbpsを切り出して reference fastaとして、利用しました。
 
-## Requirement
+比較に使用するサンプルは、同論文で使用された <em>D. rotundata</em> のMP2ファミリー150個体の中から、6個体を選抜し、reference fastaにアラインメント後、染色体番号1と2の先頭2Mbpsのbamを切り出してきました。
 
-## Installation
+6サンプルのbamを用いて、vcfを作成しました。
+
+論文：Sugihara, Yu, et al. "Genome analyses reveal the hybrid origin of the staple crop white Guinea yam (Dioscorea rotundata)." Proceedings of the National Academy of Sciences 117.50 (2020): 31987-31992.
+
+EnsamblPlants, <em>D.rotundata</em>
+http://plants.ensembl.org/Dioscorea_rotundata/Info/Index
+
+6サンプルのシーケンスのaccession 番号
+
+- MP2_012: DRR208418
+- MP2_013: DRR208419
+- MP2_014: DRR208420
+- MP2_015: DRR208421
+- MP2_018: DRR208424
+- MP2_020: DRR208426
+
+
+## Contents (内容)
+
+- MP2_6_TDr96_F1.vcf.gz
+- TDr96_F1_v2_PC_ch01_ch02.fasta.gz
+- TDr96_F1_v2_PC_ch01_ch02.fasta.fai
+- README.md
+
+- bams/
+	- MP2_012.bam
+	- MP2_013.bam
+	- MP2_014.bam
+	- MP2_015.bam
+	- MP2_018.bam
+	- MP2_020.bam
+
+	- MP2_6_TDr96_F1.vcf.gz_GTonly.vcf.gz_sample_bam_table.txt_filled
+
+- test_script/
+	- 010.show_samples.sh
+	- 020.6samples_indel.sh
+	- 021.6samples_caps.sh
+	- 022.6samples_snp.sh
+	- 030.nogroup_indel.sh
+	- 031.nogroup_caps.sh
+	- 032.nogroup_snp.sh
+
+
+## Installation (インストール)
+
+以下のコマンドで、カレントディレクトリにデータをダウンロードしてください。
+
 ~~~
 $ git clone https://github.com/ncod3/data_vprimer
 ~~~
 
-## Getting Started
+## Note (ノート)
 
-## Usage
-
-## Note
-
-## Authors
+## Authors (著者)
 - Satoshi Natsume s-natsume@ibrc.or.jp
 
 See also the list of contributors who participated in this project.
 
-## Licence
+## Licence (ライセンス)
 
 Copyright (c) 2023 Satoshi Natsume
 Released under the MIT license
 https://github.com/YukinobuKurata/YouTubeMagicBuyButton/blob/master/MIT-LICENSE.txt
 
-## Acknowledgements
-
+## Changelog (更新履歴)
