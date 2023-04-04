@@ -1,23 +1,21 @@
 # Sample data for V-primer
 
-V-primer のための、デモ用サンプルデータです。
+V-primer ( https://github.com/ncod3/vprimer ) のための、デモ用サンプルデータです。
 
 ## Description (概要)
 
-データの内容は以下です。
+データの内容は以下の通りです。
 
-下記論文で構築され、現在 EnsemblPlants で公開されているシロギニアヤム(<em>D. rotundata</em>)の仮想染色体(20染色体, 589Mbp)から、染色体番号1と2を取り出し、その中でも、先頭2Mbpsを切り出して reference fastaとして、利用しました。
+Reference fasta: 下記論文で構築され、現在 EnsemblPlants で公開されているシロギニアヤム(<em>D. rotundata</em>)の仮想染色体(20染色体, 492Mbp)から、染色体番号1と2を取り出し、その先頭2Mbpsを切り出してデモ用サンプルの reference fasta として利用しました。
 
-比較に使用するサンプルは、同論文で使用された <em>D. rotundata</em> のMP2ファミリー150個体の中から、6個体を選抜し、reference fastaにアラインメント後、染色体番号1と2の先頭2Mbpsのbamを切り出してきました。
-
-6サンプルのbamを用いて、vcfを作成しました。
+比較に使用したサンプル：比較に使用したサンプルは、同論文で仮想染色体構築に使用された mapping population であるMP2ファミリー156個体の中から6個体を選抜し、reference fastaにアラインメント後、染色体番号1と2の先頭2Mbpsのbamを切り出して保存、この6サンプルのbamを用いてvcfを作成しました。
 
 論文：Sugihara, Yu, et al. "Genome analyses reveal the hybrid origin of the staple crop white Guinea yam (Dioscorea rotundata)." Proceedings of the National Academy of Sciences 117.50 (2020): 31987-31992.
 
 EnsamblPlants, <em>D.rotundata</em>
 http://plants.ensembl.org/Dioscorea_rotundata/Info/Index
 
-6サンプルのシーケンスのaccession 番号
+6サンプルのシーケンスの accession 番号は次のとおりです。
 
 - MP2_012: DRR208418
 - MP2_013: DRR208419
