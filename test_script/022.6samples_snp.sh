@@ -40,5 +40,6 @@ $program \
     --product_size $product_size \
     --thread $thread \
 	--bam_table $bam_table \
-	--min_max_depth $min_max_depth
+	--min_max_depth $min_max_depth \
+    --amplicon_param $amplicon_param
 
