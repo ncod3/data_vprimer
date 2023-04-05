@@ -60,7 +60,7 @@ Download the data to the current directory with the command below.
 $ git clone https://github.com/ncod3/data_vprimer
 ~~~
 
-## Note (ノート)
+## Note
 
 ## Authors
 
