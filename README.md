@@ -6,7 +6,7 @@ This is a demo sample data for V-primer ( https://github.com/ncod3/vprimer ).
 
 The data consists of the following:
 
-Reference fasta: We extracted the first 2 Mbps of chromosome 1 and 2 from a pseudo chromosome (20 chromosomes, 492 Mbp) of White guinea yam (***Dioscorea rotundata***) that was constructed and is currently publicly available on EnsemblPlants. We used this sequence as a reference fasta for the demo. The pseudo chromosome was constructed in the paper below.
+Reference fasta: We extracted the first 2 Mbps of chromosome 1 and 2 from a pseudo chromosome (20 chromosomes, 492 Mbp) of White Guinea yam (***Dioscorea rotundata***) that was constructed and is currently publicly available on EnsemblPlants. We used this sequence as a reference fasta for the demo. The pseudo chromosome was constructed in the paper below.
 
 Samples used for comparison: We selected six individuals from the MP2 family mapping population used to construct the pseudo chromosome in the paper below. After aligning the individuals to the reference fasta, we extracted the first 2 Mbps of chromosomes 1 and 2 from the resulting bam files and used them to create a VCF file. The accession numbers of the six samples' sequences are listed below.
 
