@@ -1,21 +1,21 @@
 # Sample data for V-primer
 
-V-primer ( https://github.com/ncod3/vprimer ) のための、デモ用サンプルデータです。
+This is a demo sample data for V-primer ( https://github.com/ncod3/vprimer ).
 
-## Description (概要)
+## Description
 
-データの内容は以下の通りです。
+The data consists of the following:
 
-Reference fasta: 下記論文で構築され、現在 EnsemblPlants で公開されているシロギニアヤム(<em>D. rotundata</em>)の仮想染色体(20染色体, 492Mbp)から、染色体番号1と2を取り出し、その先頭2Mbpsを切り出してデモ用サンプルの reference fasta として利用しました。
+Reference fasta: We extracted the first 2 Mbps of chromosome 1 and 2 from a pseudo chromosome (20 chromosomes, 492 Mbp) of White guinea yam (***Dioscorea rotundata***) that was constructed and is currently publicly available on EnsemblPlants. We used this sequence as a reference fasta for the demo. The pseudo chromosome was constructed in the paper below.
 
-比較に使用したサンプル：比較に使用したサンプルは、同論文で仮想染色体構築に使用された mapping population であるMP2ファミリー156個体の中から6個体を選抜し、reference fastaにアラインメント後、染色体番号1と2の先頭2Mbpsのbamを切り出して保存、この6サンプルのbamを用いてvcfを作成しました。
+Samples used for comparison: We selected six individuals from the MP2 family mapping population used to construct the pseudo chromosome in the paper below. After aligning the individuals to the reference fasta, we extracted the first 2 Mbps of chromosomes 1 and 2 from the resulting bam files and used them to create a VCF file. The accession numbers of the six samples' sequences are listed below.
 
-論文：Sugihara, Yu, et al. "Genome analyses reveal the hybrid origin of the staple crop white Guinea yam (Dioscorea rotundata)." Proceedings of the National Academy of Sciences 117.50 (2020): 31987-31992.
+Paper: Sugihara, Yu, et al. "Genome analyses reveal the hybrid origin of the staple crop white Guinea yam (Dioscorea rotundata)." Proceedings of the National Academy of Sciences 117.50 (2020): 31987-31992.
 
-EnsamblPlants, <em>D.rotundata</em>
+EnsemblPlants, ***D. rotundata***
 http://plants.ensembl.org/Dioscorea_rotundata/Info/Index
 
-6サンプルのシーケンスの accession 番号は次のとおりです。
+The accession numbers for the six samples are as follows:
 
 - MP2_012: DRR208418
 - MP2_013: DRR208419
@@ -25,7 +25,7 @@ http://plants.ensembl.org/Dioscorea_rotundata/Info/Index
 - MP2_020: DRR208426
 
 
-## Contents (内容)
+## Contents
 
 - MP2_6_TDr96_F1.vcf.gz
 - TDr96_F1_v2_PC_ch01_ch02.fasta.gz
@@ -52,9 +52,9 @@ http://plants.ensembl.org/Dioscorea_rotundata/Info/Index
 	- 032.nogroup_snp.sh
 
 
-## Installation (インストール)
+## Installation
 
-以下のコマンドで、カレントディレクトリにデータをダウンロードしてください。
+Download the data to the current directory with the command below.
 
 ~~~
 $ git clone https://github.com/ncod3/data_vprimer
@@ -62,15 +62,17 @@ $ git clone https://github.com/ncod3/data_vprimer
 
 ## Note (ノート)
 
-## Authors (著者)
+## Authors
+
 - Satoshi Natsume s-natsume@ibrc.or.jp
 
 See also the list of contributors who participated in this project.
 
-## Licence (ライセンス)
+## Licence
 
 Copyright (c) 2023 Satoshi Natsume
 Released under the MIT license
 https://github.com/YukinobuKurata/YouTubeMagicBuyButton/blob/master/MIT-LICENSE.txt
 
-## Changelog (更新履歴)
+## Changelog
+
