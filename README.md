@@ -75,4 +75,6 @@ Released under the MIT license
 https://github.com/YukinobuKurata/YouTubeMagicBuyButton/blob/master/MIT-LICENSE.txt
 
 ## Changelog
+- 2023-06-07
+    - Modified the value of product size in script test_script/022.6samples_snp.sh and test_script/032.auto_group_snp.sh to 170-180.
 

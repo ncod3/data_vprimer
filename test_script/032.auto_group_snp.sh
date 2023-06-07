@@ -19,7 +19,8 @@ pick_mode="snp"
 amplicon_param="ACACTGACGACATGGTTCTACA,TACGGTAGCAGAGACTTGGTCT,45,40"
 
 indel_size="20-100"
-product_size="300-400"
+#product_size="300-400"
+product_size="170-180"
 
 bam_table="refs/MP2_6_TDr96_F1.vcf.gz_GTonly.vcf.gz_sample_bam_table.txt"
 min_max_depth="8-300"
